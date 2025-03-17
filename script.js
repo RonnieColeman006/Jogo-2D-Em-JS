@@ -2,10 +2,10 @@ const canvas = document.getElementById('Jogo2D');
 const ctx = canvas.getContext('2d');
 
 const desenhoObs = new Image();
-desenhoObs.src = 'burro.jpg';
+desenhoObs.src = 'burro-removebg-preview.png';
 
 const desenhoOPersonagem = new Image();
-desenhoOPersonagem.src = 'shrek.jpg';
+desenhoOPersonagem.src = 'shrek-removebg-preview.png';
 
 let gravidade = 0.8;
 let velocidadePersonagem = 25;
