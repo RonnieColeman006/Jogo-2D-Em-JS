@@ -5,22 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo Insano</title>
     <style>
-        body{
+        body {
+            background-color: green;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
+            height: 100vh;
+            margin: 0;
         }
-        canvas{
-            margin-top: 100px;
-            background-color: rgb(50, 131, 104);
+        h1 {
+            color: white;
+            font-family: 'Arial', sans-serif;
+            font-size: 3rem;
+            margin-bottom: 20px; /* Espaço entre o título e o canvas */
+        }
+        canvas {
+            background-image: url(shrekshome.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
 
 <body>
+    <h1>Shrek's Adventures</h1>
     <canvas id="Jogo2D" width="800" height="400"></canvas>
 
     <script src="script.js"></script>
 </body>
-
 </html>
